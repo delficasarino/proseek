@@ -12,12 +12,12 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route index exact="true" element={<Home />}></Route>
-        <Route path="/business" exact="true" element={<Business />}></Route>
-        <Route path="/contact" exact="true" element={<Contact />}></Route>
-        <Route path="/logistics" exact="true" element={<Logistics />}></Route>
-        <Route path="/services" exact="true" element={<Services />}></Route>
-        <Route path="/supplying" exact="true" element={<Supplying />}></Route>
+        <Route index exact="true" element={<Home />} />
+        <Route path="/business" exact="true" element={<Business />} />
+        <Route path="/contact" exact="true" element={<Contact />} />
+        <Route path="/logistics" exact="true" element={<Logistics />} />
+        <Route path="/services" exact="true" element={<Services />} />
+        <Route path="/supplying" exact="true" element={<Supplying />} />
       </Route>
     </Routes>
   );
