@@ -16,11 +16,11 @@ function Header() {
         </button>
         <Nav
           links={[
-            { url: "/Business", title: "Unidad de Negocio" },
-            { url: "/Logistics", title: "Logística" },
-            { url: "/Services", title: "Servicios" },
-            { url: "/Supplying", title: "Abastecimiento" },
-            { url: "/Contact", title: "Contacto" },
+            { url: "/business", title: "Unidad de Negocio" },
+            { url: "/logistics", title: "Logística" },
+            { url: "/services", title: "Servicios" },
+            { url: "/supplying", title: "Abastecimiento" },
+            { url: "/contact", title: "Contacto" },
           ]}
         />
       </section>
